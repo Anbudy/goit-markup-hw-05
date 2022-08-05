@@ -361,10 +361,14 @@ margin-bottom: 40px;
   transform: translateY(0);
 }
 
+.image {
+  display: block;
+}
+
 .portf-img {
   position: relative;
-  height: 294px; /* HELP Поясніть будьдаска. Чому, якщо я не використовую цей параметер з'являється відступ між img та низом цього div */
   overflow: hidden;
+  outline: 1px solid red;
 }
 
 .overlay {
